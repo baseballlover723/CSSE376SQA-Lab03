@@ -34,5 +34,10 @@ public class PrimeFactorization {
 		assertEquals(list(2,2), PrimeFactor.generate(4));
 	}
 
+	@Test
+	public void test6() {
+		assertEquals(list(2,3), PrimeFactor.generate(6));
+	}
+
 
 }
