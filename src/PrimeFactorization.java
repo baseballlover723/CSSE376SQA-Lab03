@@ -10,8 +10,8 @@ import org.junit.Test;
 
 public class PrimeFactorization {
 
-	@Before
-	public void setUp() throws Exception {
+	private List<Integer> list(Integer... ints) {
+		return Arrays.asList(ints);
 	}
 
 	@Test
@@ -19,8 +19,10 @@ public class PrimeFactorization {
 		assertEquals(list(), PrimeFactor.generate(1));
 	}
 
-	private List<Object> list() {
-		return Arrays.asList();
+	@Test
+	public void test2() {
+		assertEquals(list(2), PrimeFactor.generate(2));
 	}
+
 
 }
