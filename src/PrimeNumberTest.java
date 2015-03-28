@@ -25,6 +25,7 @@ public class PrimeNumberTest {
 	public static Collection<Object[]> primeNumbers() {
 		return Arrays.asList(new Object[][] {
 				{2, new ArrayList<Integer>()},
+				{3, new ArrayList<Integer>(Arrays.asList(2))},
 
 		});
 	}
