@@ -28,6 +28,11 @@ public class PrimeFactorization {
 	public void test3() {
 		assertEquals(list(3), PrimeFactor.generate(3));
 	}
+	
+	@Test
+	public void test4() {
+		assertEquals(list(2,2), PrimeFactor.generate(4));
+	}
 
 
 }
