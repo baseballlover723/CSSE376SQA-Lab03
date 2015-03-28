@@ -5,7 +5,13 @@ public class PrimeNumberGenerator {
 
 	public static ArrayList<Integer> generate(int numb){
 		ArrayList<Integer> primes = new ArrayList<Integer>();
-		for (int k=2; k<numb; k++) {
+		if (numb > 2) {
+			primes.add(2);
+		}
+		if (numb > 3) {
+			primes.add(3);
+		}
+		for (int k=5; k < numb; k+=2) {
 			if (isPrime(k)) {
 				primes.add(k);
 			}
@@ -14,7 +20,7 @@ public class PrimeNumberGenerator {
 	}
 	
 	public static boolean isPrime(int numb) {
-		for (int k=2; k<=Math.sqrt(numb);k++) {
+		for (int k=3; k<=Math.sqrt(numb);k++) {
 			if (numb % k == 0) {
 				return false;
 			}
