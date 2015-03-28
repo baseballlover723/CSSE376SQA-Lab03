@@ -10,5 +10,6 @@ public class TestRunner {
 			System.out.println(failure.toString());
 		}
 		System.out.println(result.wasSuccessful());
+//		new PrimeNumberFinder("primes.txt").findPrimesUnder(20);
 	}
 }
