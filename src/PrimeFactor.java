@@ -10,9 +10,6 @@ public class PrimeFactor {
 				k /= divisor;
 			}
 		}
-		if (k > 1) {
-			primes.add(k);
-		}
 		return primes;
 	}
 }
