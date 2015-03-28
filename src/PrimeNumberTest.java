@@ -28,7 +28,7 @@ public class PrimeNumberTest {
 				{3, new ArrayList<Integer>(Arrays.asList(2))},
 				{5, new ArrayList<Integer>(Arrays.asList(2, 3))},
 				{10, new ArrayList<Integer>(Arrays.asList(2, 3, 5, 7))},
-				{20, new ArrayList<Integer>(Arrays.asList(2,3,5,7,11,13,17))},
+				{20, new ArrayList<Integer>(Arrays.asList(2,3,5,7,11,13,17,19))},
 
 		});
 	}
