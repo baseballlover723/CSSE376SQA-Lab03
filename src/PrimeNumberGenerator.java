@@ -8,6 +8,9 @@ public class PrimeNumberGenerator {
 		if (k > 2) {
 			primes.add(2);
 		}
+		if (k > 3) {
+			primes.add(3);
+		}
 		return primes;
 	}
 }
