@@ -1,4 +1,8 @@
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,8 +15,12 @@ public class PrimeFactorization {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void test1() {
+		assertEquals(list(), PrimeFactor.generate(1));
+	}
+
+	private List<Object> list() {
+		return Arrays.asList();
 	}
 
 }
