@@ -26,6 +26,7 @@ public class PrimeNumberTest {
 		return Arrays.asList(new Object[][] {
 				{2, new ArrayList<Integer>()},
 				{3, new ArrayList<Integer>(Arrays.asList(2))},
+				{5, new ArrayList<Integer>(Arrays.asList(2, 3))},
 
 		});
 	}
