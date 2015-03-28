@@ -5,7 +5,7 @@ public class PrimeFactor {
 
 	public static ArrayList<Integer> generate(int k) {
 		ArrayList<Integer> primes = new ArrayList<Integer>();
-		if (k % 2 == 0) {
+		while (k % 2 == 0) {
 			primes.add(2);
 			k /= 2;
 		}
